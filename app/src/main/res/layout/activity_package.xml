@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PackageActivity">
+    <LinearLayout
+        android:id="@+id/layout_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center"
+            android:id="@+id/toolbar"
+            android:background="@color/black"
+            android:elevation="4dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/backBtn"
+                    android:src="@drawable/ic_back"></ImageView>
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textSize="17dp"
+                    android:text="@string/packages"
+                    android:textColor="@color/white">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/ic_checkout_bag_white"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/addToBag"
+
+                        android:layout_height="wrap_content"></ImageView>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycleView"
+            android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wdullaer:materialdatetimepicker:3.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9343e350b88944f9eca577dce20269b8/transformed/jetified-materialdatetimepicker-3.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9343e350b88944f9eca577dce20269b8/transformed/jetified-materialdatetimepicker-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9343e350b88944f9eca577dce20269b8/transformed/jetified-materialdatetimepicker-3.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/3.3.0/5b4a86e85c724a06bcb272995f71f0e2fed59299/materialdatetimepicker-3.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/3.3.0/ae1706291a74d49e9824204f3556b03431ac94ff/materialdatetimepicker-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

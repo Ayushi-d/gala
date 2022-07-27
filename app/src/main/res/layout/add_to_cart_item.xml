@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Catering Company"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/text_size_title"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Date for delivery - 22-July-2021 At 1:00PM"
+        android:drawableRight="@drawable/ic_arrow_down"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"></View>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+
+
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img111"
+                        android:layout_width="60dp"
+                        android:src="@drawable/catering_4"
+                        android:layout_height="60dp"></ImageView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Breakfast Meal"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal"
+                            android:id="@+id/heading111"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/people111"
+                            android:text="For 10 people"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_normal"
+                            ></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.4"
+
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="35.000 KWD"
+                    android:textColor="@color/black"
+                    android:id="@+id/price111"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/deleteImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_delete"></ImageView>
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey"
+
+            android:layout_height="1dp"></View>
+    </LinearLayout>
+
+
+
+    <View
+    android:layout_width="match_parent"
+    android:background="@color/grey"
+    android:layout_marginTop="10dp"
+    android:layout_height="1dp"></View>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:background="@color/total_back"-->
+<!--        android:paddingBottom="15dp"-->
+<!--        android:layout_height="wrap_content">-->
+<!--&lt;!&ndash;        <LinearLayout&ndash;&gt;-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="0.6"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:text="Total"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="@dimen/text_size_normal"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_height="wrap_content"></TextView>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_weight="0.4"-->
+
+<!--            android:layout_height="match_parent">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:text="35.000 KWD"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_height="match_parent"></TextView>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Address"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Change"
+            android:background="@drawable/rectangle_transparent_black_border"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"></TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        android:text="Home
+Hawally
+Salmiya, Block 4, Street 3, House no. 4
+Direction: Call me when you reach nearby"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

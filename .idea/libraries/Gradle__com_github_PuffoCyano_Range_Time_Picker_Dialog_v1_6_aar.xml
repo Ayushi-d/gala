@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.PuffoCyano:Range-Time-Picker-Dialog:v1.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bd22838fdc346b9aeac2fee64381c24d/transformed/jetified-Range-Time-Picker-Dialog-v1.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bd22838fdc346b9aeac2fee64381c24d/transformed/jetified-Range-Time-Picker-Dialog-v1.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bd22838fdc346b9aeac2fee64381c24d/transformed/jetified-Range-Time-Picker-Dialog-v1.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

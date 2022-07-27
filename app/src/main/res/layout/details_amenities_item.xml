@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:text="Wifi"
+    android:layout_margin="10dp"
+    android:id="@+id/heading"
+    android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_width="0dp"
+        android:text="Included"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:id="@+id/descriptionTxt"
+        android:layout_height="wrap_content"></TextView>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_group_5684"
+        android:layout_gravity="center"
+        android:id="@+id/img"
+        android:layout_height="wrap_content"></ImageView>
+</LinearLayout>

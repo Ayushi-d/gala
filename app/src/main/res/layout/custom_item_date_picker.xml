@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingTop="50dp"
+    app:cardCornerRadius="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:minHeight="250dp"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+
+
+        <!--    <ListView-->
+        <!--        android:id="@+id/list_view"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_below="@+id/layout_top"-->
+        <!--        android:clipToPadding="false"-->
+        <!--        android:divider="@color/grey"-->
+        <!--        android:dividerHeight="0.5dp"-->
+        <!--        android:drawSelectorOnTop="true"-->
+        <!--        android:visibility="gone" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:layout_width="250dp"
+                    android:textStyle="bold"
+                  android:gravity="center"
+                  android:layout_margin="20dp"
+                  android:text="Please select date and time for the event"
+                  android:layout_height="wrap_content"></TextView>
+              <ImageView
+                  android:layout_width="wrap_content"
+android:visibility="gone"
+                  android:src="@drawable/ic_cross_icon"
+                  android:layout_height="wrap_content"></ImageView>
+          </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:drawableLeft="@drawable/ic_calendar"
+                android:text="22 August 2021 @ 01:30 PM"
+                android:gravity="center_vertical"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"></TextView>
+
+            <com.github.florent37.singledateandtimepicker.SingleDateAndTimePicker
+                android:id="@+id/single_day_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:picker_itemSpacing="6dp"
+                app:picker_curvedMaxAngle="45"
+                app:picker_curved="true"
+                app:picker_selectorColor="@android:color/transparent"
+                app:picker_stepSizeHours="1"
+                app:picker_stepSizeMinutes="30"
+                app:picker_cyclic="false"
+
+                app:picker_dayCount="31"
+                app:picker_mustBeOnFuture="true"
+                app:picker_visibleItemCount="7"
+                app:fontFamily="@font/avenir_demi"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/submitTxt"
+                android:layout_marginBottom="20dp"
+                android:text="Submit"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/black_button"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_white"
+            android:elevation="2dp"
+            android:padding="2dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_error_message"
+            style="@style/font_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:padding="15dp"
+            android:text="Message"
+            android:textColor="@color/colorPrimary"
+            android:textDirection="locale"
+            android:textSize="@dimen/drawer_text_size"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

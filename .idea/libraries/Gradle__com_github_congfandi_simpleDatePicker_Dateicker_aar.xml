@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.congfandi:simpleDatePicker:Dateicker@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e9f05143ad863ff1bf405fb0fe20f92d/transformed/jetified-simpleDatePicker-Dateicker/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e9f05143ad863ff1bf405fb0fe20f92d/transformed/jetified-simpleDatePicker-Dateicker/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e9f05143ad863ff1bf405fb0fe20f92d/transformed/jetified-simpleDatePicker-Dateicker/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.congfandi/simpleDatePicker/Dateicker/eabc6184e08a9647e6242685c49bfe215f7bbf25/simpleDatePicker-Dateicker-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

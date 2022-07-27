@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.marozzi.segmentedtab:segmented-tab:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/934dca8a37abce21b2c5b5a012d15f71/transformed/jetified-segmented-tab-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/934dca8a37abce21b2c5b5a012d15f71/transformed/jetified-segmented-tab-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/934dca8a37abce21b2c5b5a012d15f71/transformed/jetified-segmented-tab-1.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.marozzi.segmentedtab/segmented-tab/1.0.2/32432e654ef474e23888f4c5e736170becb7eb9f/segmented-tab-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.marozzi.segmentedtab/segmented-tab/1.0.2/1df7774154cc693ed5ddc0d93eb12f022facb919/segmented-tab-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

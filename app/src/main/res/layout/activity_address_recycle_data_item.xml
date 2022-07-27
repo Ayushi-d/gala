@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_address"
+        android:layout_margin="10dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/homeTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textSize="@dimen/text_size_title"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/addressTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hawally,Salmiya\nBlock 10,Street 10,Avenue 10,\nFloor 10,Flat 10"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/directionTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direction"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/phoneTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

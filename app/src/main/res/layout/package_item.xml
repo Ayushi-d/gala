@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:elevation="11dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="150dp"
+        android:id="@+id/img"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="5dp"
+        android:layout_height="150dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/heading"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/descriptionTxt"
+            android:textSize="@dimen/text_size_normal"
+            android:maxLines="2"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/priceTxt"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            android:text="Price : 220 KWD"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/selected"
+            android:gravity="center"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:padding="10dp"
+
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/white"
+            android:id="@+id/loginTxt"
+            android:background="@drawable/black_button"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

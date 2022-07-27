@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gala_new.iml" filepath="$PROJECT_DIR$/.idea/modules/gala_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/gala_new.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/gala_new.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/singledateandtimepicker/gala_new.singledateandtimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/singledateandtimepicker/gala_new.singledateandtimepicker.iml" />
+    </modules>
+  </component>
+</project>

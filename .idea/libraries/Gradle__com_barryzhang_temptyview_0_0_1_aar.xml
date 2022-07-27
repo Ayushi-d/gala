@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.barryzhang:temptyview:0.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/af05aa37136709c974c633eaf789b4e9/transformed/jetified-temptyview-0.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af05aa37136709c974c633eaf789b4e9/transformed/jetified-temptyview-0.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af05aa37136709c974c633eaf789b4e9/transformed/jetified-temptyview-0.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.barryzhang/temptyview/0.0.1/31406dde1fb65ca28eee85f08d19e1dddedd86a2/temptyview-0.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.barryzhang/temptyview/0.0.1/cc1e9cbba6f00c5d74089eb02008a244b6c06ebd/temptyview-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

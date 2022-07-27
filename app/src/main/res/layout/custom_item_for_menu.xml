@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout1"
+    android:background="@color/white"
+    android:weightSum="5"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/img"
+        android:layout_weight="0.5"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_language"
+        ></ImageView>
+ <TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/txt"
+    android:gravity="center_vertical"
+    android:textSize="@dimen/text_size_title"
+     android:layout_weight="4"
+
+    android:text="Langauge"
+    android:layout_height="match_parent">
+
+</TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/language"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/text_size_normal"
+        android:text="English"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:layout_height="match_parent"/>
+
+    <com.suke.widget.SwitchButton
+        android:id="@+id/switch_button"
+        android:layout_width="25dp"
+        app:sb_show_indicator="false"
+        android:layout_weight="0.5"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        app:sb_checked_color="@color/black"
+        android:layout_height="30dp"/>
+</LinearLayout>

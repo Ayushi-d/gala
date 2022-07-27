@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Gala</string>
+    <string name="ok">Ok</string>
+    <string name="email">Email</string>
+    <string name="search">Search</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="sign_in_or_sign_up">Sign In Or Sign Up</string>
+    <string name="home">Home</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="are_you_sure_you_want_to_exit_the_app">Are you sure you want to exit the app?</string>
+
+    <string name="password">Password</string>
+    <string name="forget_password">Forget password ?</string>
+    <string name="login_with">Login with</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">LOGIN</string>
+    <string name="accept_terms_and_conditions">Accept Terms and Conditions</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="have_an_account_already">Have an account already?</string>
+    <string name="profile">Profile</string>
+    <string name="likes">Likes</string>
+    <string name="no_of_people">Qty</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="language">Langauge</string>
+    <string name="notification">Notification</string>
+    <string name="contac">Contact us</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="terms">Terms And Conditions</string>
+    <string name="my_order">My Order</string>
+    <string name="my_wish">My Wishlist</string>
+    <string name="my_address">My Address</string>
+    <string name="logout">Logout</string>
+    <string name="select_size">Select Size</string>
+    <string name="selected">Selected</string>
+    <string name="phone">Phone</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_and_condition">Terms and Condition</string>
+    <string name="packages">Packages</string>
+    <string name="item_added_cart">Item is added to the cart</string>
+    <string name="added_successfully">Added Successfully</string>
+    <string name="categories">Categories</string>
+    <string name="view_complete_details"><u>View Complete Details</u></string>
+    <string name="payment_details">Payment Details</string>
+    <string name="submit">Submit</string>
+    <string name="wishlist">WishList</string>
+    <string name="payment">Payment</string>
+
+</resources>

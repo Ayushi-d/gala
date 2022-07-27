@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.izikode.izilib:roguin:0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/af2d83476659a15b141012fec2708975/transformed/jetified-roguin-0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af2d83476659a15b141012fec2708975/transformed/jetified-roguin-0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af2d83476659a15b141012fec2708975/transformed/jetified-roguin-0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.izikode.izilib/roguin/0.3/b97acaedd27faa8f9dcc4d958a19401275fa3891/roguin-0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.izikode.izilib/roguin/0.3/18a899de13c9beb1428214223bf8aa576711ee2c/roguin-0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
